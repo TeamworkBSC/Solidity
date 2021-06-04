@@ -937,7 +937,7 @@ contract TeamworkBSC is Context, IERC20, OwnAndAdministrable {
 
 
     string private _name = "Teamwork BSC";
-    string private _symbol = "TWRK";
+    string private _symbol = "T";
     uint8 private _decimals = 9;
     uint256 private _tTotal = 1000 * 10**6 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
